@@ -1,3 +1,4 @@
+# Working with a File's Contents
 filename = '/Users/quanefiom/Desktop/Github_Projects/Chapter 10/pi_digits.txt'
 
 with open(filename) as file_object:
