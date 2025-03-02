@@ -1,0 +1,5 @@
+In Python you can store data in a Variable.
+In Python you can use the print function to display results.
+In Python you can add comments to your code.
+In Python you can use 'For Loops' to iterate over a list.
+In Python you can store a set of keys and values in a dictionary.
