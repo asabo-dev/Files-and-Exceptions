@@ -6,7 +6,11 @@ def count_words(filename):
         with open(filename, encoding='utf-8') as f:
             contents = f.read()
     except FileNotFoundError:
-        print(f"Sorry, the file {filename} does not exist.")
+        pass
+        """
+        'pass' statement explicitly tell Python to do nothing in the except block.
+        Thereby allowing the code to fail silently without any report in the output.
+        """
     else:
         words = contents.split()
         num_words = len(words)
