@@ -12,5 +12,11 @@ def count_words(filename):
         num_words = len(words)
         print(f"The file 'alice.txt' has about {num_words} words.")
 
-filename = '/Users/quanefiom/desktop/github_projects/Chapter 10/alice.txt'
-count_words(filename)
+filenames = [
+    '/Users/quanefiom/desktop/github_projects/Chapter 10/alice.txt',
+    '/Users/quanefiom/desktop/github_projects/Chapter 10/siddhartha.txt',
+    '/Users/quanefiom/desktop/github_projects/Chapter 10/moby_dick.txt',
+    '/Users/quanefiom/desktop/github_projects/Chapter 10/little_women.txt'
+]
+for filename in filenames:
+    count_words(filename)
