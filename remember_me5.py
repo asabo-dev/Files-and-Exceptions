@@ -1,4 +1,5 @@
 # Refactor greet_user()
+# Each function handles a specific task, making the code more consice. 
 import json
 
 def get_stored_username():
